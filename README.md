@@ -1,12 +1,17 @@
-# React + Vite
+## Создание приложения по тематике мультфильма рика и морти.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Задача
+Реализовать infinityScroll, для каждой категории надо создать и оптимизировать приложение. Реализовать авторизацию в приложении. Написать приложение в тематике рика и морти. Сделать три страницы с информацией, в которых должны быть объекты в с ссылками уже на другие страницы.
 
-Currently, two official plugins are available:
+## Описание
+В главном компоненте App написаны все Route, там же происходит переход к первой страничке Home. Все обёрнуто в HeaderLayout, для того чтоы отражались навигационные кнопки. Обернуто все кроме Route для страницы NotFound. При переходе в категорию отображается список элементов, которые относятся к этой категории(каждая категория имеет свой маршрут), при нажатии на элемент происходит переход на страничку с подробной информацией элемента(маршрут также меняется при переходе от элемента к элементу). Routes прописан в главном компоненте App. Все Route прописаны в одном месте. Все приложение имеет обычный не особо замысловатый стиль, но по тематике мультфильма. Есть страница авторизации. Категории будут недоступны без авторизации. Также, если нажать на категорию вас перебросит на страницу авторизации и после авторизации вас сразу же перекинет обратно на туже категорию. Пользователь сохраняется в localStorage.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Новые изменения
+Приложение оптимизировано и добавлена обработка ошибок в страницах, если что-то пойдет не так. Также присутствует infinity scroll для подгрузки информации в категориях только тогда, когда это понадобиться.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Иструменты и библиотеки
+JavaScript
+React
+React-Router v6
+## Автор
+Калеев Еремей
