@@ -1,0 +1,31 @@
+.first-section-home{
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  border-top: 0.2rem solid rgb(160, 247, 135);
+  color: rgba(208, 252, 207, 0.896);
+  text-align: start;
+  padding: 5rem;
+}
+.first-section-home h1{
+  text-align: center;
+  font-size: 3rem;
+}
+.second__div-home{
+  background-color: rgba(87, 87, 87, 0.703);
+  border-radius: 1rem;
+  padding: 1rem;
+  text-align: center;
+}
+.second__div-home h3{
+  margin: 1rem;
+  padding: 1rem;
+  background-color: black;
+  border-radius: 1rem;
+}
+.home_picture{
+  height: 30rem;
+  width: 100%;
+  margin-bottom: 1rem;
+  user-select: none;
+}

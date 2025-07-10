@@ -1,0 +1,1 @@
+export { useSearchInfo } from './useSearchInfo'

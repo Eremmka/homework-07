@@ -1,0 +1,11 @@
+.first-section-notFound{
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  border-top: 0.2rem solid rgb(160, 247, 135);
+  color: rgb(255, 113, 113);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+} 

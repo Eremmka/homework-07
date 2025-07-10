@@ -1,0 +1,89 @@
+.login-first-div{
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  border-top: 0.2rem solid rgb(160, 247, 135);
+  color: rgba(208, 252, 207, 0.896);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.login-second-div{
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(98, 247, 255, 0.667);
+  border-radius: 1rem;
+  padding: 2rem;
+  margin-top: 4rem;
+  color: black;
+}
+.login-second-div input{
+  width: 100%;
+  height: 1.5rem;
+  margin-bottom: 0rem;
+  transition: 0.5s;
+  border-radius: 0.5rem;
+  border: 0;
+}
+.login-second-div input:hover{
+  transform: scale(1.02);
+}
+.login-second-div p{
+  margin: 0;
+  font-size: 1rem;
+}
+.login-second-div h3{
+  font-size: 2rem;
+}
+.login-second-div label{
+  font-size: 1rem;
+}
+.login-second-div button{
+  width: 50%;
+  height: 2.5rem;
+  border: 0.1px;
+  border-radius: 1rem;
+  margin-top: 1rem;
+  transition: 0.5s;
+}
+.login-second-div button:hover{
+  transform: scale(1.05);
+}
+.user-panel-div__first{
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  border-top: 0.2rem solid rgb(160, 247, 135);
+  color: rgba(208, 252, 207, 0.896);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.user-panel-div__second{
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(98, 247, 255, 0.667);
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-top: 4rem;
+  color: black;
+}
+.user-panel-div__second h3{
+  font-size: 2rem;
+}
+.user-panel-div__second button{
+  width: 50%;
+  height: 2.5rem;
+  border: 0.1px;
+  border-radius: 1rem;
+  margin-top: 1rem;
+  transition: 0.5s;
+}
+.user-panel-div__second button:hover{
+  transform: scale(1.05);
+}
